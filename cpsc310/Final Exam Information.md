@@ -1,0 +1,111 @@
+Examinable Skills:
+- Requirements
+    - [ ] Write user stories with the correct format, and meaning.
+    - [ ] Write unambiguous definitions of done.
+    - [ ] Identify why some user stories are not good user stories (because they are ambiguous, or too large, or not testable, for instance -- INVEST principles).
+	- [ ] Explain why, as professionals, definitions of done are important.
+	- [ ] Explain how definitions of done drive test suites.
+	- [ ] Explain the difference between a story and a task, and identify which is which.
+	- [ ] Explain how requirement lengths are motivated to some extent by technological and economic concerns.
+	- [ ] Be able to differentiate and elicit functional requirements and quality attributes.
+	- [ ] Explain the difference between a requirement and a specification.
+	- [ ] Explain how user stories relate the problem domain to the solution domain to capture client expectations.
+- Software Specification
+    - [ ] Explain the difference between a requirement and a specification.
+    - [ ] Understand why technical representations are important.
+    - [ ] Be able to select and justify the appropriate technical representation for the task at hand.
+    - [ ] Be able to translate a technical description to a variety of different representations.
+    - [ ] Know how to derive the limitations of a design from one or more technical representations.
+- Technical Representations
+	- [ ] Explain what abstraction is and what purpose it serves in software.
+	- [ ] Explain the layers of software representation.
+	- [ ] Explain what UML diagrams are and how to draw UML class and sequence diagrams.
+	- [ ] Explain what a state machine diagram is, what they represent, and how to draw one.
+- Software Testing
+	- [ ] Explain different kinds of tests
+	- [ ] Explain the difference between black box and glass box testing, both in terms of when they happen, and how the tests are devised.
+	- [ ] Explain how tests for a particular version of a system become regression tests as the system evolves.
+	- [ ] Properly form a test with the right parts (setup, call, check).
+	- [ ] Explain why line coverage is often considered insufficient as a measure of suite completeness.
+	- [ ] Create test suites that achieve line and branch coverage, and that achieve boundary and equivalence class testing.
+	- [ ] Assess the above kinds of coverage in a given test suite.
+	- [ ] Describe different kinds of assertions and justify their benefits and tradeoffs.
+- Process
+    - [ ] Describe risks teams face and mechanisms for reducing these risks.
+    - [ ] Be able to explain why software is built in teams, and why larger teams face different challenges than smaller teams (e.g., Brooks Law).
+    - [ ] Know what teamwork agreements / codes of conduct are, what they may contain, and why effective teams often have them explicitly recorded.
+    - [ ] Explain why processes are important, and why they should be adopted early.
+    - [ ] Provide some reasons that Waterfall was necessary at the time, what it involved, and why some projects today still rely on this process.
+    - [ ] Explain how extreme and agile processes arose, why they were possible, and what benefits and tradeoffs they involved compared to prior processes.
+    - [ ] Explain all the terms and practices used in Scrum.
+    - [ ] Explain the high-level differences between Scrum and Kanban.
+    - [ ] Elaborate on software process risks, explaining how they may affect project outcomes.
+- IP & Automation
+    - [ ] Understand how intellectual property rights affect consumers.
+    - [ ] Be able to describe how intellectual property is used by producers to protect their intellectual investments.
+    - [ ] Be able to reason about how the most common source code licenses apply to specific clear examples.
+    - [ ] Explain the rationale behind the use of automation in the software development process.
+    - [ ] Identify key ideas and common actions that are automated.
+    - [ ] Describe the purpose and benefits of continuous integration.
+- High Level Design
+	- [ ] Explain that the underpinning principle of design is that changes should be as localised as possible.
+	- [ ] Understand four common terms used to describe software design: Abstraction, Decomposition, Information Hiding and Encapsulation.
+	- [ ] Define coupling and cohesion, spot examples within code, and understand how coupling and cohesion impact the ease in which a system is extended/modified.
+		- [ ] For examinations: You do NOT need to remember each kind of coupling/cohesion. Remember the names of the best and worst one of each, and be able to look at code and distinguish between better and worse coupling/cohesion.
+	- [ ] Understand what an API is
+	- [ ] Evaluate an API and justify its strengths and weaknesses
+	- [ ] Understand and apply the principles of Semantic Versioning
+- SOLID Design Principles
+	- [ ] For each SOLID principle:
+		- [ ] Evaluate if and how the principle is being adhered to
+		- [ ] Spot violations of the principle
+		- [ ] Describe the principle's implications and trades off
+		- [ ] Be able to repair principle violations through changes to the design
+	- [ ] Identify and explain how principles are connected (the violation of one may lead to the violation of another).
+- Refactoring
+	- [ ] Explain what technical debt and code smells are.
+	- [ ] Be able to describe how these challenges emerge as code evolves.
+	- [ ] Explain the concept of refactoring.
+	- [ ] Explain when to refactor and when not to refactor.
+	- [ ] Identify code smells and be able to identify and carry out appropriate refactorings:
+		- [ ] Comments → extract methods and pipe through parameters.
+		- [ ] Magic numbers → Constants or variables.
+		- [ ] Long Methods → introduce sub-methods.
+		- [ ] Long Parameter List → introduce class for parameters.
+		- [ ] Same method in multiple subclasses → pull up method.
+		- [ ] Almost duplicate code → refactor to template.
+		- [ ] Switch on type → refactor to use polymorphism.
+		- [ ] Feature envy/Law of Demeter violation → move method and where to put the new method.
+		- [ ] Divergent changes → extract class.
+		- [ ] Shotgun surgery → introduce class(es) and move methods.
+	- [ ] Achieve well named methods, identify method aesthetics, and when they are violated.
+	- [ ] Be able to decrease feature envy by moving a method and know where to put the new method(s).
+	- [ ] Be able to identify and fix of violations of the Law of Demeter.
+- Low Level Design
+	- [ ] Explain what a design pattern is, what purpose it fulfils, and when it is appropriate to use one.
+	- [ ] Explain what the observer pattern is and what scenario it should be used in.
+	- [ ] Explain what the composite pattern is and what scenario it should be used in.
+	- [ ] Explain what the factory pattern is and what scenario it should be used in.
+	- [ ] Explain what the strategy pattern is and what scenario it should be used in.
+	- [ ] Explain what the state pattern is and what scenario it should be used in.
+	- [ ] Explain what the singleton pattern is, what design principles it violates, and what it should be replaced with.
+	- [ ] Explain what the facade pattern is and what scenario it should be used in.
+	- [ ] Explain what the decorator pattern is and what scenario it should be used in.
+	- [ ] Explain what the adapter pattern is and what scenario it should be used in.
+- GUI Design Patterns
+	- [ ] Explain what the MVC design pattern is and what motivated its usage.
+	- [ ] Explain what the MVP design pattern is and what motivated its usage.
+	- [ ] Explain what the MVVM design pattern is and what motivated its usage.
+	- [ ] Explain what the component-based design pattern is and what motivated its usage.
+- DevOps
+	- [ ] What is a microservice architecture? How does it differ from a monolith?
+    - [ ] What is Continuous Delivery/Deployment and what are the key steps?
+    - [ ] What problems does CI/CD aim to solve?
+    - [ ] What problems does DevOps solve in a company?
+    - [ ] How and why do we test in production?
+- Info Sec
+	- [ ] Reason about how security requirements interact with software designs and implementations.
+	- [ ] Know how to ideate about security threat scenarios.
+	- [ ] Estimate the risk associated with security threats.
+	- [ ] Describe and apply mitigation principles (defense in depth, least privilege, etc) to abstract and concrete designs.
+	- [ ] Be able to outline how system security can be validated.
