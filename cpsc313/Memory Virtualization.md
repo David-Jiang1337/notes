@@ -1,0 +1,16 @@
+WMemory virtualization is the method by which multiple [[Process|processes]] are provided independent portions of memory whilst allowing each process to use the same and entire address space. It works through the combination of software and hardware (the memory management unit or MMU), to map each in-use address of each process' address space to a physical address in DRAM. To implement memory virtualization, the operating system sets up address mappings, manages the allocation of physical memory, and implements policies around memory sharing whilst the hardware MMU accelerates the software by providing a fast mechanism by which virtual addresses are mapped to physical ones.
+## Memory Mapping
+When mapping virtual to physical memory, the hardware must be given certain properties like the virtual address, permitted forms of access (reading, writing, execution), and the privilege level required for access. The MMU will then produce either a physical address, representing a successful memory mapping, or a fault. Faults may include:
+- The virtual address provided has no mapping (is not valid)
+- The type of access is not permitted by the permissions provided
+- The accessing process does not have sufficient privilege level (must be same or lower (higher privilege levels are represented by lower values) value) to access.
+- The virtual address is accessible but requires that the OS takes control first.
+## Memory Paging
+Like on filesystems, an efficient way to map virtual to physical addresses is to organize data into blocks of fixed length. For memory, these data blocks are known as pages. 
+
+On x86 CPUs, memory pages are `4 KB` in length, requiring $log_2(4096) = 12$ bits to represent all offsets on a page. This means that the bottom $12$ bits on x86 memory represents the offset at a given page, and the rest of the bits represent represent the index of the specific page. More specifically, some amount of the most significant bits of the index may be unused, such that the length of a virtual page number may differ from its physical counterpart.
+
+On the x86 architecture, the virtual address space is $48$ bits, with the $12$ least significant bits denoting offset within the page and the more significant $36$ bits representing the page number. The final $16$ bits available on a 64-bit machine are unused.
+As for the physical address space, the $12$ least significant bits are again dedicated to the offset within the page, with the length of more significant bits for the page number being determined by the available total memory. For example, a system with $32GB = 32 \cdot  1024^3 B$ of memory would use $log_2(32 \cdot 1024^3) - 12 = 23$ bits for the page number (the bottom $12$ bits are already accounted for).
+### Translation Lookaside Buffer
+To accelerate mappings from virtual to physical memory, the MMU caches commonly used memory pages into a table known as a translation lookaside buffer (TLB). Each entry of the TLB contains a virtual page number, the corresponding physical page number, as well as the access permissions and mode.

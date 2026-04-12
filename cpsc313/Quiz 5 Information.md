@@ -1,17 +1,33 @@
 Quiz 5 of CPSC 313 will be about learning how to read binary dumps of directories, comparing V6 and ext2 filesystem designs, and understanding CPU and memory virtualization.
-- [ ] Read binary dumps of directories.
-- [ ] Compare and contrast the V6 and ext2 filesystems.
-- [ ] Define:
-	- [ ] Process
-	- [ ] Address Space
-	- [ ] Process isolation
-	- [ ] Virtual memory
-- [ ] Explain how operating systems differ from normal, user-space applications.
-- [ ] Explain OS permissions and supervisor mode.
-- [ ] Explain how and when the operating system gets to run.
-- [ ] Explain why we organize memory in pages.
-- [ ] Define: Translation Lookaside Buffer (TLB)
-- [ ] Determine how many bits are necessary to represent virtual and physical page numbers.
-- [ ] Describe differences and similarities between multi-level index filesystems and multi-level page tables.
-- [ ] Describe the x86 virtual memory architecture.
-- [ ] Generalize from the x86 to other configurations of virtual memory systems.
+- [x] Read binary dumps of directories.
+	- [[Linux dirent]]
+- [x] Compare and contrast the V6 and ext2 filesystems.
+	- [[Linux ext2 filesystem]]
+	- [[Unix v6 filesystem]]
+- [x] Define:
+	- [x] Process
+		- [[Process]]
+	- [x] Address Space
+		- [[Process]]
+	- [x] Process isolation
+		- [[Process]]
+	- [x] Virtual memory
+		- [[Memory Virtualization]]
+- [x] Explain how operating systems differ from normal, user-space applications.
+	- [[OS Protection Boundaries]]
+- [x] Explain OS permissions and supervisor mode.
+	- [[OS Protection Boundaries]]
+- [x] Explain how and when the operating system gets to run.
+	- [[OS Protection Boundaries]]
+- [x] Explain why we organize memory in pages.
+	- [[Memory Virtualization]]
+- [x] Define: Translation Lookaside Buffer (TLB)
+	- [[Memory Virtualization]]
+- [x] Determine how many bits are necessary to represent virtual and physical page numbers.
+	- [[Memory Virtualization]]
+- [x] Describe differences and similarities between multi-level index filesystems and multi-level page tables.
+	- [[Memory Virtualization]]
+	- [[x86 Address Translation]]
+- [x] Describe the x86 virtual memory architecture.
+	- [[x86 Address Translation]]
+- [x] Generalize from the x86 to other configurations of virtual memory systems.
