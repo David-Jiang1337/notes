@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpsc310/Information Security.md",
+                "file": "math221/Final Exam Information.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Information Security"
+              "title": "Final Exam Information"
             }
           }
         ],
@@ -242,6 +242,11 @@
   },
   "active": "a2c6b068c3647ef1",
   "lastOpenFiles": [
+    "math221/Final Exam Information.md~",
+    "Untitled.md",
+    "math221/Final Exam Information.md",
+    "math221",
+    "cpsc310/Information Security.md",
     "cpsc310/Model-View-ViewModel Pattern.md",
     "cpsc310/Software Specifications.md",
     "cpsc310/Final Exam Information.md",
@@ -252,7 +257,6 @@
     "cpsc310/Code Smells.md",
     "cpsc310/assets/adapterExample.png",
     "cpsc310/assets",
-    "cpsc310/Information Security.md",
     "cpsc310/Microservices.md",
     "cpsc310/Testing in Production.md",
     "cpsc310/Low-Level Design Patterns.md",
@@ -268,8 +272,6 @@
     "cpsc310/Final Exam Information.md~",
     "cpsc313/OS Protection Boundaries.md",
     "cpsc313/Memory Virtualization.md",
-    "cpsc313/Linux dirent.md",
-    "Welcome.md",
     "cpsc310",
     "cpsc313"
   ]

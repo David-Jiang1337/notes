@@ -1,0 +1,167 @@
+- Vectors: Algebra and Geometry
+    - [ ] Learn how to add and scale vectors in $R^n$, both algebraically and geometrically.
+    - [ ] Understand linear combinations geometrically.
+    - [ ] Pictures: vector addition, vector subtraction, linear combinations.
+    - [ ] Vocabulary: vector, linear combination.
+    - [ ] Understand the equivalence between a system of linear equations and a vector equation.
+    - [ ] Learn the definition of $Span\{ x 1 , x 2 ,..., x k\}$, and how to draw pictures of spans.
+    - [ ] Pictures: an inconsistent system of equations, a consistent system of equations, spans in $R^2$ and $R^3$.
+    - [ ] Vocabulary: vector equation.
+    - [ ] Essential vocabulary: span.
+- Systems of Linear Equations: Algebra
+    - [ ] Learn what a system of linear equations is.
+    - [ ] Learn how a system of linear equations corresponds to a vector equation.
+    - [ ] Learn what is meant by a solution to a system of linear equations.
+    - [ ] Understand the solutions to systems of linear equations geometrically in dimensions 2 and 3.
+    - [ ] Vocabulary: system of linear equations, consistent system, inconsistent system.
+    - [ ] Learn to replace a system of linear equations by an augmented matrix.
+    - [ ] Learn how the elimination method corresponds to performing row operations on an augmented matrix.
+    - [ ] Understand when a matrix is in (reduced) row echelon form.
+    - [ ] Learn which row reduced matrices come from inconsistent linear systems.
+    - [ ] Recipe: the row reduction algorithm.
+    - [ ] Vocabulary: row operation, row equivalence, matrix, augmented matrix, pivot, (reduced) row echelon form.
+    - [ ] Learn to express the solution set of a system of linear equations in parametric form.
+    - [ ] Understand the three possibilities for the number of solutions of a system of linear equations.
+    - [ ] Recipe: parametric form.
+    - [ ] Vocabulary: free variable.
+    - [ ] Understand the equivalence between a system of linear equations, an augmented matrix, a vector equation, and a matrix equation.
+    - [ ] Characterize the vectors $b$ such that $Ax = b$ is consistent, in terms of the span of the columns of $A$.
+    - [ ] Characterize matrices $A$ such that $Ax = b$ is consistent for all vectors $b$.
+    - [ ] Recipe: multiply a vector by a matrix (two ways).
+    - [ ] Picture: the set of all vectors $b$ such that $Ax = b$ is consistent.
+    - [ ] Vocabulary: matrix equation.
+- Solution Sets and Subspaces
+    - [ ] Understand the relationship between the solution set of $Ax = 0$ and the solution set of $Ax = b$.
+    - [ ] Understand the difference between the solution set and the column span.
+    - [ ] Recipes: parametric vector form, write the solution set of a homogeneous system as a span.
+    - [ ] Pictures: solution set of a homogeneous system, solution set of an inhomogeneous system, the relationship between the two.
+    - [ ] Vocabulary: homogeneous/inhomogeneous, trivial solution.
+    - [ ] Understand the concept of linear independence.
+    - [ ] Learn two criteria for linear independence.
+    - [ ] Understand the relationship between linear independence and pivot columns / free variables.
+    - [ ] Recipe: test if a set of vectors is linearly independent / find an equation of linear dependence.
+    - [ ] Picture: whether a set of vectors in $R^2$ or $R^3$ is linearly independent or not.
+    - [ ] Vocabulary: linear dependence relation / equation of linear dependence.
+    - [ ] Essential Vocabulary: linearly independent, linearly dependent.
+    - [ ] Learn the definition of a subspace.
+    - [ ] Learn to determine whether or not a subset is a subspace.
+    - [ ] Learn the most important examples of subspaces.
+    - [ ] Learn to write a given subspace as a column space or null space.
+    - [ ] Recipe: compute a spanning set for a null space.
+    - [ ] Picture: whether a subset of $R^2$ or $R^3$ is a subspace or not.
+    - [ ] Vocabulary: subspace, column space, null space.
+    - [ ] Understand the definition of a basis of a subspace.
+    - [ ] Understand the basis theorem.
+    - [ ] Recipes: basis for a column space, basis for a null space, basis of a span.
+    - [ ] Picture: basis of a subspace of $R^2$ or $R^3$.
+    - [ ] Theorem: basis theorem.
+    - [ ] Essential Vocabulary: basis, dimension.
+    - [ ] Learn to view a basis as a coordinate system on a subspace.
+    - [ ] Recipes: compute the $\beta$-coordinates of a vector, compute the usual coordinates of a vector from its $\beta$-coordinates.
+    - [ ] Picture: the $\beta$-coordinates of a vector using its location on a nonstandard coordinate grid.
+    - [ ] Vocabulary: $\beta$-coordinates.
+    - [ ] Learn to understand and use the rank theorem.
+    - [ ] Picture: the rank theorem.
+    - [ ] Theorem: rank theorem.
+    - [ ] Vocabulary: rank, nullity.
+- Linear Transformations and Matrix Algebra
+    - [ ] Learn to view a matrix geometrically as a function.
+    - [ ] Learn examples of matrix transformations: reflection, dilation, rotation, shear, projection.
+    - [ ] Understand the vocabulary surrounding transformations: domain, codomain, range.
+    - [ ] Understand the domain, codomain, and range of a matrix transformation.
+    - [ ] Pictures: common matrix transformations.
+    - [ ] Vocabulary: transformation / function, domain, codomain, range, identity transformation, matrix transformation.
+    - [ ] Understand the definitions of one-to-one and onto transformations.
+    - [ ] Recipes: verify whether a matrix transformation is one-to-one and/or onto.
+    - [ ] Pictures: examples of matrix transformations that are/are not one-to-one and/or onto.
+    - [ ] Vocabulary: one-to-one, onto.
+    - [ ] Learn how to verify that a transformation is linear, or prove that a transformation is not linear.
+    - [ ] Understand the relationship between linear transformations and matrix transformations.
+    - [ ] Recipe: compute the matrix of a linear transformation.
+    - [ ] Theorem: linear transformations and matrix transformations.
+    - [ ] Notation: the standard coordinate vectors $e_1 , e_2 ,...$.
+    - [ ] Vocabulary: linear transformation, standard matrix, identity matrix.
+    - [ ] Understand compositions of transformations.
+    - [ ] Understand the relationship between matrix products and compositions of matrix transformations.
+    - [ ] Become comfortable doing basic algebra involving matrices.
+    - [ ] Recipe: matrix multiplication (two ways).
+    - [ ] Picture: composition of transformations.
+    - [ ] Vocabulary: composition.
+    - [ ] Understand what it means for a square matrix to be invertible.
+    - [ ] Learn about invertible transformations, and understand the relationship between invertible matrices and invertible transformations.
+    - [ ] Recipes: compute the inverse matrix, solve a linear system by taking inverses.
+    - [ ] Picture: the inverse of a transformation.
+    - [ ] Vocabulary: inverse matrix, inverse transformation.
+    - [ ] Theorem: the invertible matrix theorem.
+- Determinants
+    - [ ] Learn the definition of the determinant.
+    - [ ] Learn some ways to identify a matrix with determinant zero by sight.
+    - [ ] Learn how to compute determinants of upper- and lower-triangular matrices.
+    - [ ] Learn the basic properties of the determinant, and how to apply them.
+    - [ ] Recipe: compute the determinant using row and column operations.
+    - [ ] Theorems: existence theorem, invertibility property, multiplicativity property, transpose property.
+    - [ ] Vocabulary: diagonal, upper-triangular, lower-triangular, transpose.
+    - [ ] Essential Vocabulary: determinant.
+    - [ ] Learn to recognize which methods are best suited to compute the determinant of a given matrix.
+    - [ ] Recipes: the determinant of a $3 \times 3$ matrix, compute the determinant using cofactor expansions.
+    - [ ] Vocabulary: minor, cofactor.
+    - [ ] Understand the relationship between the determinant of a matrix and the volume of a parallelepiped.
+    - [ ] Learn to use determinants to compute volumes of parallelograms and triangles.
+    - [ ] Learn to use determinants to compute the volume of some curvy shapes like ellipses.
+    - [ ] Pictures: parallelepiped, the image of a curvy shape under a linear transformation.
+    - [ ] Theorem: determinants and volumes.
+    - [ ] Vocabulary: parallelepiped.
+- Eigenvalues and Eigenvectors
+    - [ ] Learn the definition of eigenvector and eigenvalue.
+    - [ ] Learn to find eigenvectors and eigenvalues geometrically.
+    - [ ] Learn to decide if a number is an eigenvalue of a matrix, and if so, how to find an associated eigenvector.
+    - [ ] Recipe: find a basis for the $\lambda$-eigenspace.
+    - [ ] Pictures: whether or not a vector is an eigenvector, eigenvectors of standard matrix transformations.
+    - [ ] Theorem: the expanded invertible matrix theorem.
+    - [ ] Vocabulary: eigenspace.
+    - [ ] Essential Vocabulary: eigenvector, eigenvalue.
+    - [ ] Learn that the eigenvalues of a triangular matrix are the diagonal entries.
+    - [ ] Find all eigenvalues of a matrix using the characteristic polynomial.
+    - [ ] Learn some strategies for finding the zeros of a polynomial.
+    - [ ] Recipe: the characteristic polynomial of a $2 \times 2$ matrix.
+    - [ ] Vocabulary: characteristic polynomial, trace.
+    - [ ] Learn to interpret similar matrices geometrically.
+    - [ ] Understand the relationship between the eigenvalues, eigenvectors, and characteristic polynomials of similar matrices.
+    - [ ] Recipe: compute $Ax$ in terms of $B, C$ for $A = CBC^{-1}$.
+    - [ ] Picture: the geometry of similar matrices.
+    - [ ] Vocabulary: similarity.
+    - [ ] Learn two main criteria for a matrix to be diagonalizable.
+    - [ ] Develop a library of examples of matrices that are and are not diagonalizable.
+    - [ ] Understand what diagonalizability and multiplicity have to say about similarity.
+    - [ ] Recipes: diagonalize a matrix, quickly compute powers of a matrix by diagonalization.
+    - [ ] Pictures: the geometry of diagonal matrices, why a shear is not diagonalizable.
+    - [ ] Theorem: the diagonalization theorem (two variants).
+    - [ ] Vocabulary: diagonalizable, algebraic multiplicity, geometric multiplicity.
+    - [ ] Learn to find complex eigenvalues and eigenvectors of a matrix.
+    - [ ] Learn to recognize a rotation-scaling matrix, and compute by how much the matrix rotates and scales.
+    - [ ] Understand the geometry of $2 × 2$ and $3 × 3$ matrices with a complex eigenvalue.
+    - [ ] Recipes: a $2 × 2$ matrix with a complex eigenvalue is similar to a rotation-scaling matrix, the eigenvector trick for $2 × 2$ matrices.
+    - [ ] Pictures: the geometry of matrices with a complex eigenvalue.
+    - [ ] Theorems: the rotation-scaling theorem, the block diagonalization theorem.
+    - [ ] Vocabulary: rotation-scaling matrix.
+- Orthogonality
+    - [ ] Understand the relationship between the dot product, length, and distance.
+    - [ ] Understand the relationship between the dot product and orthogonality.
+    - [ ] Vocabulary: dot product, length, distance, unit vector, unit vector in the direction of $x$.
+    - [ ] Essential vocabulary: orthogonal.
+    - [ ] Understand the basic properties of orthogonal complements.
+    - [ ] Learn to compute the orthogonal complement of a subspace.
+    - [ ] Recipes: shortcuts for computing the orthogonal complements of common subspaces.
+    - [ ] Picture: orthogonal complements in $R^2$ and $R^3$.
+    - [ ] Theorem: row rank equals column rank.
+    - [ ] Vocabulary: orthogonal complement, row space.
+    - [ ] Understand the orthogonal decomposition of a vector with respect to a subspace.
+    - [ ] Understand the relationship between orthogonal decomposition and orthogonal projection.
+    - [ ] Understand the relationship between orthogonal decomposition and the closest vector on / distance to a subspace.
+    - [ ] Learn the basic properties of orthogonal projections as linear transformations and as matrix transformations.
+    - [ ] Recipes: orthogonal projection onto a line, orthogonal decomposition by solving a system of equations, orthogonal projection via a complicated matrix product.
+    - [ ] Pictures: orthogonal decomposition, orthogonal projection.
+    - [ ] Vocabulary: orthogonal decomposition, orthogonal projection.
+    - [ ] Understand which is the best method to use to compute an orthogonal projection in a given situation.
+    - [ ] Recipes: an orthonormal set from an orthogonal set, Projection Formula, $\beta$-coordinates when $\beta$ is an orthogonal set, Gram–Schmidt process.
+    - [ ] Vocabulary: orthogonal set, orthonormal set.
