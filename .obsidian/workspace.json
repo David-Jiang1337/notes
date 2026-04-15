@@ -13,31 +13,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "cpsc313/Linux ext2 filesystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "Linux ext2 filesystem"
             }
-          }
-        ]
-      },
-      {
-        "id": "3bc8ec2d9f6e8f47",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4a29dcd9110f31f0",
+            "id": "b233f348199b7ebc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "cpsc310/Model-View-Controller Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model-View-Controller Pattern"
+            }
+          },
+          {
+            "id": "28672dc83c4efb70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpsc310/Model-View-Presenter Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Model-View-Presenter Pattern"
+            }
+          },
+          {
+            "id": "f30c1915f5e9bc3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpsc310/Facade Design Pattern.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Facade Design Pattern"
+            }
+          },
+          {
+            "id": "a2c6b068c3647ef1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cpsc310/Information Security.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Information Security"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -199,8 +240,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "e43ea6fa6257a55f",
+  "active": "a2c6b068c3647ef1",
   "lastOpenFiles": [
-    "Welcome.md"
+    "cpsc310/Model-View-ViewModel Pattern.md",
+    "cpsc310/Software Specifications.md",
+    "cpsc310/Final Exam Information.md",
+    "cpsc310/Decorator Design Pattern.md",
+    "cpsc310/Facade Design Pattern.md",
+    "cpsc310/DevOps.md",
+    "cpsc310/Adapter Design Pattern.md",
+    "cpsc310/Code Smells.md",
+    "cpsc310/assets/adapterExample.png",
+    "cpsc310/assets",
+    "cpsc310/Information Security.md",
+    "cpsc310/Microservices.md",
+    "cpsc310/Testing in Production.md",
+    "cpsc310/Low-Level Design Patterns.md",
+    "cpsc310/Model-View-Controller Pattern.md",
+    "cpsc310/Model-View-Presenter Pattern.md",
+    "cpsc310/Continuous Delivery or Deployment.md",
+    "cpsc310/Continuous Integration.md",
+    "cpsc313/Unix v6 filesystem.md",
+    "cpsc313/x86 Address Translation.md",
+    "cpsc313/Quiz 5 Information.md",
+    "cpsc313/Linux ext2 filesystem.md",
+    "cpsc313/Process.md",
+    "cpsc310/Final Exam Information.md~",
+    "cpsc313/OS Protection Boundaries.md",
+    "cpsc313/Memory Virtualization.md",
+    "cpsc313/Linux dirent.md",
+    "Welcome.md",
+    "cpsc310",
+    "cpsc313"
   ]
 }

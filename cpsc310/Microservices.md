@@ -1,0 +1,7 @@
+Unlike monolithic architectures where the entire codebase of a software is deployed on a single server, microservices deploy individual modules of business logic on separate servers and allow them to communicate with all the other modules via network requests. The API gateway then routes user requests to the appropriate microservice module.
+
+# Benefits
+The benefit of a microservice architecture is the loose coupling between modules, allowing improved separation of concerns. It also permits individual modules to be scaled based on their demand as opposed to scaling the hardware of the entire monolithic server, enabling more cost-effective and targeted scaling. Microservices may also be more resilient to failure as a failure in a module does not typically propagate to the entire software, whereas on a monolithic architecture it often does. Finally, the fact that these small services are independent of one another allows each one to be written using languages and frameworks that best suit their purposes.
+
+# Challenges
+A key challenge of microservices is their added complexity. Individual services may be updated independently of one another and must accommodate changes to other services. It is also more difficult to understand the behavior of the software writ large based on reading the code within a service.
