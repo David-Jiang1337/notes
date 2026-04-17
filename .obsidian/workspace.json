@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "math221/Final Exam Information.md",
+                "file": "cpsc313/Final Exam Information.md",
                 "mode": "source",
                 "source": false
               },
@@ -242,9 +242,14 @@
   },
   "active": "a2c6b068c3647ef1",
   "lastOpenFiles": [
+    "math221/Final Exam Information.md",
+    "math221/Orthogonality.md",
+    "math221/Linear Transformations.md",
+    "cpsc313/Final Exam Information.md",
+    "cpsc313/Quiz 5 Information.md",
+    "cpsc313/Final Exam Information.md~",
     "math221/Final Exam Information.md~",
     "Untitled.md",
-    "math221/Final Exam Information.md",
     "math221",
     "cpsc310/Information Security.md",
     "cpsc310/Model-View-ViewModel Pattern.md",
@@ -266,12 +271,9 @@
     "cpsc310/Continuous Integration.md",
     "cpsc313/Unix v6 filesystem.md",
     "cpsc313/x86 Address Translation.md",
-    "cpsc313/Quiz 5 Information.md",
     "cpsc313/Linux ext2 filesystem.md",
     "cpsc313/Process.md",
     "cpsc310/Final Exam Information.md~",
-    "cpsc313/OS Protection Boundaries.md",
-    "cpsc313/Memory Virtualization.md",
     "cpsc310",
     "cpsc313"
   ]

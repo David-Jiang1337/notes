@@ -65,11 +65,12 @@
     - [ ] Theorem: rank theorem.
     - [ ] Vocabulary: rank, nullity.
 - Linear Transformations and Matrix Algebra
-    - [ ] Learn to view a matrix geometrically as a function.
+    - [x] Learn to view a matrix geometrically as a function.
+	    - [[Linear Transformations]]
     - [ ] Learn examples of matrix transformations: reflection, dilation, rotation, shear, projection.
-    - [ ] Understand the vocabulary surrounding transformations: domain, codomain, range.
-    - [ ] Understand the domain, codomain, and range of a matrix transformation.
-    - [ ] Pictures: common matrix transformations.
+    - [x] Understand the vocabulary surrounding transformations: domain, codomain, range.
+    - [x] Understand the domain, codomain, and range of a matrix transformation.
+    - [x] Pictures: common matrix transformations.
     - [ ] Vocabulary: transformation / function, domain, codomain, range, identity transformation, matrix transformation.
     - [ ] Understand the definitions of one-to-one and onto transformations.
     - [ ] Recipes: verify whether a matrix transformation is one-to-one and/or onto.
@@ -145,19 +146,20 @@
     - [ ] Theorems: the rotation-scaling theorem, the block diagonalization theorem.
     - [ ] Vocabulary: rotation-scaling matrix.
 - Orthogonality
-    - [ ] Understand the relationship between the dot product, length, and distance.
-    - [ ] Understand the relationship between the dot product and orthogonality.
-    - [ ] Vocabulary: dot product, length, distance, unit vector, unit vector in the direction of $x$.
-    - [ ] Essential vocabulary: orthogonal.
-    - [ ] Understand the basic properties of orthogonal complements.
-    - [ ] Learn to compute the orthogonal complement of a subspace.
-    - [ ] Recipes: shortcuts for computing the orthogonal complements of common subspaces.
-    - [ ] Picture: orthogonal complements in $R^2$ and $R^3$.
-    - [ ] Theorem: row rank equals column rank.
-    - [ ] Vocabulary: orthogonal complement, row space.
-    - [ ] Understand the orthogonal decomposition of a vector with respect to a subspace.
-    - [ ] Understand the relationship between orthogonal decomposition and orthogonal projection.
-    - [ ] Understand the relationship between orthogonal decomposition and the closest vector on / distance to a subspace.
+    - [x] Understand the relationship between the dot product, length, and distance.
+	    - [[Orthogonality]]
+    - [x] Understand the relationship between the dot product and orthogonality.]]
+    - [x] Vocabulary: dot product, length, distance, unit vector, unit vector in the direction of $x$.
+    - [x] Essential vocabulary: orthogonal.
+    - [x] Understand the basic properties of orthogonal complements.
+    - [x] Learn to compute the orthogonal complement of a subspace.
+    - [x] Recipes: shortcuts for computing the orthogonal complements of common subspaces.
+    - [x] Picture: orthogonal complements in $R^2$ and $R^3$.
+    - [x] Theorem: row rank equals column rank.
+    - [x] Vocabulary: orthogonal complement, row space.
+    - [x] Understand the orthogonal decomposition of a vector with respect to a subspace.
+    - [x] Understand the relationship between orthogonal decomposition and orthogonal projection.
+    - [x] Understand the relationship between orthogonal decomposition and the closest vector on / distance to a subspace.
     - [ ] Learn the basic properties of orthogonal projections as linear transformations and as matrix transformations.
     - [ ] Recipes: orthogonal projection onto a line, orthogonal decomposition by solving a system of equations, orthogonal projection via a complicated matrix product.
     - [ ] Pictures: orthogonal decomposition, orthogonal projection.

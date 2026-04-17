@@ -1,0 +1,102 @@
+- Quiz 1 Content
+    - [ ] Define what an ISA (instruction set architecture) is and describe the key characteristics of an ISA.
+    - [ ] Given the notation from the textbook, describe in plain English and at a high level what an instruction does.
+    - [ ] Given a Y86 instruction and its description convert that to the short hand form like the following: `R[rB] = R[rA] * R[rB]`
+    - [ ] Given the compiler’s assembly output of a C program map/comment between the C and assembly.
+    - [ ] Explain/Define what is meant by the term "Calling Conventions".
+        - [ ] Provide an example of a calling convention and compare and contrast calling conventions.
+        - [ ] When given a calling convention write code that conforms to the calling convention.
+        - [ ] Write instructions to set up and teardown a y86 call frame.
+    - [ ] Given a small piece of C convert it to Y86.
+    - [ ] Describe in plain English what a small piece of Y86 is doing.
+    - [ ] Explain the purpose and use of the Y86 assembler directives.
+    - [ ] Given the description of an instruction format for an ISA, translate between assembly and the machine language byte encoding and vice versa
+    - [ ]     Enumerate the instruction processing phases of a CPU and the order an instruction goes through them in our Y86 sequential processor
+    - [ ]     Describe/explain, in plain English, the general functionality of each instruction execution phase
+    - [ ]     Describe/explain, in plain English, what happens in each phase as an instruction is executed
+    - [ ]     Use the notation from the text to describe what happens in each phase of the processor as the instruction is executed. Some examples are:
+        - Execute Phase: `valE <- valB + (-8)`
+        - Memory Phase: `M_8[valE] <- valA`
+        - Write back Phase: `R[%rsp] <- valE`
+    - [ ] Given a, possibly new, instruction, list the operations that need to be performed at each phase as part of the instruction's execution, or explain why the instruction cannot be executed: e.g. `valA = R[rA]`
+- Quiz 2 Content
+    - [ ] Given the description of an instruction format for an ISA, translate between assembly and the machine language byte encoding and vice versa
+    - [ ] Enumerate the instruction processing phases of a CPU and the order an instruction goes through them in our Y86 sequential processor
+    - [ ] Describe/explain, in plain English, the general functionality of each instruction execution phase
+    - [ ] Describe/explain, in plain English, what happens in each phase as an instruction is executed
+    - [ ] Use the notation from the text to describe what happens in each phase of the processor as the instruction is executed. Some examples are:
+        - Execute Phase: `valE <-- valB + (-8)`
+        - Memory Phase: `M_8[valE] <-- valA`
+        - Write back Phase: `R[%rsp] <-- valE`
+    - [ ] Given a, possibly new, instruction, list the operations that need to be performed at each phase as part of the instruction's execution, or explain why the instruction cannot be executed: e.g. `valA = R[rA]`
+    - [ ] Given a pipeline description, use the y86 operation notation (e.g., `R[rB] = R[rA] * R[rB]; PC = PC + 10;`) to precisely describe each stage of the pipeline.
+    - [ ] Explain how a CPU pipeline works and how it can contribute to the efficient execution of a program.
+    - [ ] Trace the flow of instructions through a pipelined processor. As part of the trace be able to explain what values would be loaded (and when) into the various pipeline registers
+    - [ ] Appropriately use latency, throughput, and CPI to describe the performance of a pipeline.
+    - [ ] Perform latency and throughput calculations for both sequential and pipelined processors as appropriate
+    - [ ] Define data hazard.
+    - [ ] Define control hazard.
+    - [ ] Given a sequence of assembler instructions identify all data and control hazards.
+    - [ ] Explain how forwarding mitigates pipeline hazards.
+    - [ ] Given an implementation diagram and a description of an instruction set, identify all potential hazards and how forwarding might mitigate those hazards.
+    - [ ] Explain how branch prediction mitigates pipeline hazards.
+    - [ ] Given an implementation diagram and a description of an instruction set, identify all potential control hazards, how branch prediction might mitigate those hazards, and what steps to take in the case of mispredictions.
+- Quiz 3 Content
+    - [ ] Place pipelining in the context of many forms of parallelism
+    - [ ] Justify the need for a memory hierarchy with several different levels on modern computers
+    - [ ] Identify components and their placement in the memory hierarchy.
+    - [ ] Explain why caches are effective in many/most situations.
+    - [ ] Compute the average access time for a cache.
+    - [ ] Compute hit/miss rates for a sequence of operations using a cache.
+    - [ ] Compute the speedup obtained by making a change to a given part of a program or computer system.
+    - [ ] Compare and contrast cache replacement policies such as LRU, MRU, LFU, etc.
+    - [ ] Compare and contrast write-through and write-back policies, as well as write-allocate and no-write-allocate.
+    - [ ] Evaluate cache write performance when applying different write policies.
+    - [ ] Reason about how strided access could affect cache performance.
+    - [ ] Explain each state in MSI and MESI, the transitions between states, as well as comparing between these two protocols.
+    - [ ] Continue to show your achievement of prior learning goals!
+- Quiz 4 Content
+    - [ ] Explain each state in MSI and MESI, the transitions between states, as well as comparing between these two protocols.
+    - [ ] Explain why disks are accessed differently from memory.
+    - [ ] Explain the performance impacts of the configuration of rotating disks.
+    - [ ] Define what a file descriptor is and how it is used.
+    - [ ] Provide a programming example of how a file descriptor is used.
+    - [ ] Describe the relationship between the file descriptor table, open file table, and v-node table.
+    - [ ] Trace the actions that occur with respect to a process's file descriptor table, the open file table, and v-node table when a file is opened or closed.
+    - [ ] Analyze the performance impact of hardware and software changes on the filesystem
+    - [ ] Read binary dumps of directories
+    - [ ] Interpret various file system index structures
+    - [ ] Continue to show your achievement of prior learning goals!
+- Quiz 5 Content
+	- [x] Read binary dumps of directories.
+		- [[Linux dirent]]
+	- [x] Compare and contrast the V6 and ext2 filesystems.
+		- [[Linux ext2 filesystem]]
+		- [[Unix v6 filesystem]]
+	- [x] Define:
+		- [x] Process
+			- [[Process]]
+		- [x] Address Space
+			- [[Process]]
+		- [x] Process isolation
+			- [[Process]]
+		- [x] Virtual memory
+			- [[Memory Virtualization]]
+	- [x] Explain how operating systems differ from normal, user-space applications.
+		- [[OS Protection Boundaries]]
+	- [x] Explain OS permissions and supervisor mode.
+		- [[OS Protection Boundaries]]
+	- [x] Explain how and when the operating system gets to run.
+		- [[OS Protection Boundaries]]
+	- [x] Explain why we organize memory in pages.
+		- [[Memory Virtualization]]
+	- [x] Define: Translation Lookaside Buffer (TLB)
+		- [[Memory Virtualization]]
+	- [x] Determine how many bits are necessary to represent virtual and physical page numbers.
+		- [[Memory Virtualization]]
+	- [x] Describe differences and similarities between multi-level index filesystems and multi-level page tables.
+		- [[Memory Virtualization]]
+		- [[x86 Address Translation]]
+	- [x] Describe the x86 virtual memory architecture.
+		- [[x86 Address Translation]]
+	- [x] Generalize from the x86 to other configurations of virtual memory systems.
