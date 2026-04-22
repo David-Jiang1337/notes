@@ -10,7 +10,7 @@ The metadata stored on an ext2 superblock is similar to most other filesystems, 
 ## Disk Layout
 The block size on ext2 is configurable to `1024 B` times a power of $2$, usually `1024 B`, `2048 B`, or `4096 B`.  The superblock, rather than always being stored at PBN $1$ (the second block on the disk), is stored at exactly offset `1024 B`. This means that it will show up at PBN 1 on a file of block size `1024 B`, but will occupy the second half of PBN $0$ for a block size of `2048 B`. 
 ### Block Groups
-On ext2, blocks are organized into block groups to allow for more frequent contiguous allocation, reducing the [[Quiz 5 Information]]number of seeks needed to read a file. Each block group contains a block dedicated to a data block bitmap representing which blocks in the group are free and which ones are in use, as well as an inode bitmap to do the same for inodes. 
+On ext2, blocks are organized into block groups to allow for more frequent contiguous allocation, reducing the [[Quiz 5 Information]] number of seeks needed to read a file. Each block group contains a block dedicated to a data block bitmap representing which blocks in the group are free and which ones are in use, as well as an inode bitmap to do the same for inodes.
 
 Each block group also contains some blocks dedicated to inodes. Furthermore, a copy of the superblock and block descriptor table will be stored at the beginning of block groups 0 and 1, as well as in any block group $i$ where $i$ is a power of $3$, $5$, or $7$.
 

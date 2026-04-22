@@ -1,0 +1,21 @@
+Suppose we have a $n \times n$ matrix $A$. When there exists a scalar $\lambda \in R$ and a nonzero vector $x \in R^n$, such that $Ax = \lambda x$. In such a case $\lambda$ is known as the eigenvalue and $x$ is the corresponding eigenvector. We should note that while $x$ can not be zero in the case of an eigenvector, the corresponding eigenvalue $\lambda$ can be zero.
+
+While it is possible for a rectangular $m \times n$ $A$ to also have vectors $x$ and scalars $\lambda$ such that $Ax = \lambda x$, these are not considered eigenvectors and eigenvalues.
+
+Likewise, the reason we do not consider zero vectors $x$ to be eigenvectors is because, in the case that $A0 = \lambda 0$, we might note that $\lambda$ is undefined, or valid for all values, which does not tell us anything about the characteristics of the matrix.
+
+It is relatively intuitive to derive an eigenvalue given the corresponding eigenvector, as we would simply multiply the matrix $A$ by eigenvector $x$ and calculate $\lambda = \frac{||Ax||}{||x||}$. It may not be initially as obvious as to how to find the eigenvector given the eigenvalues. We can start by noting again that in the case of an eigenvalue $\lambda$ and corresponding eigenvector $x$, $Ax = \lambda x$. Using basic algebra, it follows that $Ax - \lambda x = 0$. Since vectors are distributive with matrices and scalars, we can factor out $A - \lambda$ in the equation to get $(A - I_n\lambda)x= 0$. Hence the vectors $x$ whose eigenvalue is $\lambda$ are represented by the null space $Nul(A - I_n\lambda)$. This null space is known as the $\lambda$-eigenspace.
+
+For example, using this recipe, we can solve for a $3\times 3$ matrix $A$'s eigenvectors given an eigenvalue $\lambda$ by solving the system of equations:
+$$A = \pmatrix{a&b&c\\d&e&f\\g&h&i}$$
+$$\pmatrix{a - \lambda&b&c\\d&e-\lambda&f\\g&h&i-\lambda}\pmatrix{x\\y\\z}=\pmatrix{0\\0\\0}$$Recall that a zero-vector cannot be an eigenvector, hence if an eigenspace is a $Nul(0)$, (i.e. the only vector in the null space is $0$, then there cannot possibly be an eigenvector within that specific $\lambda$-eigenspace, and hence $\lambda$ is not an eigenvalue of $A$.
+
+Now we may notice that the $0$-eigenspace can be represented as $Nul(A - I_n 0)$. This null space is equal to $Nul(A)$. Now recall that for a square matrix $A$ that is the standard matrix of a one-to-one/onto linear transformation, the null space of $A$ must be trivial (i.e. $Nul(A) = \{0\})$. Now recall that such standard matrices are invertible. It follows that if $A$ is invertible, it has an empty $0$-eigenspace, i.e. $0$ is not an eigenvalue of $A$. Furthermore, for actual eigenvalues $\lambda$ of $A$, $A - \lambda I_n$ is never invertible.
+# The Characteristic Polynomial
+Now that we know how to derive eigenvectors from eigenvalues, we should find how to get eigenvalues with only the matrix we are analyzing. We do this using a characteristic polynomial. The characteristic polynomial of a $n \times n$ matrix $A$ is:$$f(\lambda) = det(A - \lambda I_n)$$
+Roots of $f(\lambda)$, i.e. solutions of $\lambda$ wherein $f(\lambda) = 0$, are eigenvalues of the matrix $A$.
+In practice, calculating this value using the determinant by hand becomes exponentially more cumbersome as the size $n$ of the matrix grows. Hence, we can also find this same characteristic polynomial via the trace of a square matrix. Firstly, a trace of matrix $A$, $Tr(A)$, is the sum of the diagonal entries of $A$. The characteristic polynomial can be calculated as:$$f(\lambda) = (-1)^n \lambda^n + (-1)^n Tr(A)+...+det(A)$$
+## Rational Root Theorem
+The rational root theorem states that for a $n \times n$ matrix $A$ whose characteristic polynomial has only integer coefficients, all rational roots of the characteristic polynomial are integer divisors of $det(A)$.
+
+Do note that, while all rational roots of the characteristic polynomial are whole divisors of $det(A)$, it does not logically follow that you will find any roots via this method, as it is possible that all of the roots of the polynomial are NOT rational.
